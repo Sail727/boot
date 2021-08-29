@@ -1,0 +1,1 @@
+INSERT INTO t_user(id, username, password, name, deleted) VALUES('-1', 'admin', '123', '超级管理员', 0);

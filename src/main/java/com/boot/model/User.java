@@ -1,35 +1,22 @@
 package com.boot.model;
 
-import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
-@TableName(value = "t_user")
-public class User {
+@TableName(value = "T_USER")
+public class User extends BaseModel {
 
-    @TableId(value = "id", type = IdType.UUID)
-    private Integer id;
-
-    @TableField(value = "username")
+    @TableField(value = "USERNAME")
     private String username;
 
-    @TableField(value = "password")
+    @TableField(value = "PASSWORD")
     private String password;
 
-    @TableField(value = "name")
+    @TableField(value = "NAME")
     private String name;
 
-    @TableField(value = "email")
+    @TableField(value = "EMAIL")
     private String email;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;

@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/user")
@@ -31,8 +33,9 @@ public class UserController {
     }
 
     @RequestMapping("/remove")
-    public Boolean remove(List<String> ids){
-        return userService.removeByIds(ids);
+    public Boolean remove(String[] ids){
+//        return userService.removeByIds(Arrays.stream(ids).collect(Collectors.toList()));
+        return userService.removeById("d3cbccf59a9b40b49fbb39e28bd9ef8b");
     }
 
 }
