@@ -3,19 +3,19 @@ package com.boot.model;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 
-@TableName(value = "T_USER")
+@TableName(value = "t_user")
 public class User extends BaseModel {
 
-    @TableField(value = "USERNAME")
+    @TableField(value = "username")
     private String username;
 
-    @TableField(value = "PASSWORD")
+    @TableField(value = "password")
     private String password;
 
-    @TableField(value = "NAME")
+    @TableField(value = "name")
     private String name;
 
-    @TableField(value = "EMAIL")
+    @TableField(value = "email")
     private String email;
 
     public String getUsername() {
