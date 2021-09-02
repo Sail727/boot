@@ -1,7 +1,7 @@
-package com.boot.mapper;
+package com.lf.boot.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.boot.model.User;
+import com.lf.boot.user.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

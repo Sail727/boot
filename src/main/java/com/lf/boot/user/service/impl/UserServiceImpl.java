@@ -1,9 +1,9 @@
-package com.boot.service.impl;
+package com.lf.boot.user.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.boot.mapper.UserMapper;
-import com.boot.model.User;
-import com.boot.service.IUserService;
+import com.lf.boot.user.mapper.UserMapper;
+import com.lf.boot.user.entity.User;
+import com.lf.boot.user.service.IUserService;
 import org.springframework.stereotype.Service;
 
 @Service

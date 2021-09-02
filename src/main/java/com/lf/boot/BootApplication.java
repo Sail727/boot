@@ -1,4 +1,4 @@
-package com.boot;
+package com.lf.boot;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
-@MapperScan("com.boot.mapper")
+@MapperScan("com.lf.boot.user.mapper")
 @EnableCaching
 @SpringBootApplication
 public class BootApplication {

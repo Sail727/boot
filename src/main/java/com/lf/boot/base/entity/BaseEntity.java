@@ -1,4 +1,4 @@
-package com.boot.model;
+package com.lf.boot.base.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -7,7 +7,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.io.Serializable;
 import java.util.Date;
 
-public class BaseModel implements Serializable {
+public class BaseEntity implements Serializable {
 
     @TableId(value = "id", type = IdType.ASSIGN_UUID)
     private String id;

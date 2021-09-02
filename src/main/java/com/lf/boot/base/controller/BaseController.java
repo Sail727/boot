@@ -1,4 +1,4 @@
-package com.boot.controller;
+package com.lf.boot.base.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;

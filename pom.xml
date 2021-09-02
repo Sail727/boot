@@ -8,7 +8,7 @@
         <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.boot</groupId>
+    <groupId>com.lf.boot</groupId>
     <artifactId>boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>boot</name>
@@ -38,11 +38,16 @@
             <version>3.4.2</version>
         </dependency>
 
-        <!--Mybatis-Plus逆向工程-->
+        <!--Mybatis-Plus代码生成器-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
-            <version>3.5.0</version>
+            <version>3.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
 
         <!--MySQL-->

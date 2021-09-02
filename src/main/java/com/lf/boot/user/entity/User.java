@@ -1,10 +1,11 @@
-package com.boot.model;
+package com.lf.boot.user.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.lf.boot.base.entity.BaseEntity;
 
 @TableName(value = "t_user")
-public class User extends BaseModel {
+public class User extends BaseEntity {
 
     @TableField(value = "username")
     private String username;
